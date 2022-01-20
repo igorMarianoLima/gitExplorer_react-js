@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+
+    border: 0;
+    outline: 0;
+
+    font-family: 'Commissioner', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+main > *{
+    padding: 20px 2%;
+}
+
+section {
+    height: 50vh;
+
+    position: relative;
+}
+
+form {
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+input {
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    cursor: pointer;
+
+    border-radius: 0 5px 5px 0;
+
+    background-color: #707FEE;
+    color: #fff;
+
+    transition-duration: .25s;
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+
+section#informacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+section#repositorios {
+    background-color: #eb3340;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 50vh;
+    height: fit-content;
+
+    flex-wrap: wrap;
+}
+
+section#repositorios a {
+    color: #000;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+div.repositorio_single {
+    max-width: 240px;
+
+    padding: 15px;
+    margin: 5px 20px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    background-color: #fffafa;
+
+    transition-duration: .25s;
+}
+
+.repositorio_single h3 {
+    margin: 10px 0;
+}
+
+.repositorio_single:hover {
+    transform: scale(1.15);
+}
